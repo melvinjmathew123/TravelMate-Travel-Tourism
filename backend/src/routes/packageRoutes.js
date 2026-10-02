@@ -1,0 +1,11 @@
+import { Router } from "express";
+import { getPackages, getPackage, createPackage, updatePackage, deletePackage } from "../controllers/packageController.js";
+import { protect } from "../middleware/authMiddleware.js";
+import { adminOnly } from "../middleware/adminMiddleware.js";
+const router = Router();
+router.get("/", getPackages);
+router.get("/:id", getPackage);
+router.post("/", protect, adminOnly, createPackage);
+router.put("/:id", protect, adminOnly, updatePackage);
+router.delete("/:id", protect, adminOnly, deletePackage);
+export default router;

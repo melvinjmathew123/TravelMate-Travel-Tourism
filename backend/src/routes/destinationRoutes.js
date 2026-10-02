@@ -1,0 +1,11 @@
+import { Router } from "express";
+import { getDestinations, getDestination, createDestination, updateDestination, deleteDestination } from "../controllers/destinationController.js";
+import { protect } from "../middleware/authMiddleware.js";
+import { adminOnly } from "../middleware/adminMiddleware.js";
+const router = Router();
+router.get("/", getDestinations);
+router.get("/:id", getDestination);
+router.post("/", protect, adminOnly, createDestination);
+router.put("/:id", protect, adminOnly, updateDestination);
+router.delete("/:id", protect, adminOnly, deleteDestination);
+export default router;
