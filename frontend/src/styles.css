@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&display=swap');
 
 /* ─── Design Tokens ─── */
 :root {
@@ -99,7 +99,7 @@ button { cursor: pointer; font-family: inherit; }
 }
 .nav.scrolled { box-shadow: 0 4px 30px rgba(13,31,22,.1); }
 .brand {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Lora", serif;
   font-size: 26px;
   font-weight: 700;
   color: var(--green);
@@ -149,7 +149,7 @@ button { cursor: pointer; font-family: inherit; }
 }
 .hero-inner { max-width: 700px; }
 .hero h1 {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Lora", serif;
   font-size: clamp(36px, 4.8vw, 60px);
   line-height: 1.05;
   margin: 14px 0 20px;
@@ -214,7 +214,7 @@ button { cursor: pointer; font-family: inherit; }
   background: rgba(255,255,255,.05);
 }
 .stat-num {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Lora", serif;
   font-size: 38px;
   font-weight: 700;
   line-height: 1;
@@ -238,7 +238,7 @@ button { cursor: pointer; font-family: inherit; }
 }
 .sectionhead h1,
 .sectionhead h2 {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Lora", serif;
   font-size: clamp(26px, 3.2vw, 38px);
   font-weight: 700;
   line-height: 1.1;
@@ -294,7 +294,7 @@ button { cursor: pointer; font-family: inherit; }
 .card-fav:hover { transform: scale(1.15); background: #fff; }
 .card-fav.active { color: #e04040; }
 .cardbody { padding: 22px; flex: 1; display: flex; flex-direction: column; }
-.cardbody h3 { font-family: "Cormorant Garamond", serif; font-size: 20px; font-weight: 700; margin: 10px 0 8px; letter-spacing: .3px; }
+.cardbody h3 { font-family: "Lora", serif; font-size: 20px; font-weight: 700; margin: 10px 0 8px; letter-spacing: .3px; }
 .cardbody p { color: var(--muted); line-height: 1.6; font-size: 14.5px; flex: 1; }
 .card-meta { display: flex; justify-content: space-between; align-items: center; margin: 16px 0 18px; }
 .card-price { font-weight: 800; font-size: 22px; color: var(--green); }
@@ -329,7 +329,7 @@ button { cursor: pointer; font-family: inherit; }
   padding: 30px 26px 24px;
   background: linear-gradient(transparent, rgba(5,15,10,.85) 60%);
 }
-.dest h3 { font-family: "Cormorant Garamond", serif; font-size: 24px; font-weight: 700; margin: 0 0 4px; letter-spacing: .3px; }
+.dest h3 { font-family: "Lora", serif; font-size: 24px; font-weight: 700; margin: 0 0 4px; letter-spacing: .3px; }
 .dest-meta { display: flex; align-items: center; justify-content: space-between; }
 .dest-country { font-size: 14px; opacity: .82; }
 .dest-badge {
@@ -437,7 +437,7 @@ button { cursor: pointer; font-family: inherit; }
 }
 .why-card:hover { background: rgba(255,255,255,.1); transform: translateY(-4px); }
 .why-icon { font-size: 36px; margin-bottom: 18px; display: block; }
-.why-card h3 { font-family: "Cormorant Garamond", serif; font-size: 21px; font-weight: 700; margin-bottom: 10px; letter-spacing: .3px; }
+.why-card h3 { font-family: "Lora", serif; font-size: 21px; font-weight: 700; margin-bottom: 10px; letter-spacing: .3px; }
 .why-card p { color: rgba(255,255,255,.62); line-height: 1.7; font-size: 14.5px; }
 
 /* ─── Testimonials ─── */
@@ -485,7 +485,7 @@ button { cursor: pointer; font-family: inherit; }
   background: rgba(232,168,56,.1);
 }
 .newsletter-inner { max-width: 620px; margin: 0 auto; text-align: center; padding: 0 28px; position: relative; z-index: 1; }
-.newsletter-inner h2 { font-family: "Cormorant Garamond", serif; font-size: 34px; font-weight: 700; letter-spacing: .5px; margin: 16px 0 16px; }
+.newsletter-inner h2 { font-family: "Lora", serif; font-size: 34px; font-weight: 700; letter-spacing: .5px; margin: 16px 0 16px; }
 .newsletter-inner p { opacity: .85; font-size: 17px; margin-bottom: 36px; }
 .newsletter-form { display: flex; gap: 0; border-radius: var(--radius-sm); overflow: hidden; box-shadow: 0 8px 30px rgba(0,0,0,.25); }
 .newsletter-form input {
@@ -613,7 +613,7 @@ button { cursor: pointer; font-family: inherit; }
 .lightbox-next { right: 24px; }
 
 /* Detail Content */
-.detailcontent h1 { font-family: "Cormorant Garamond", serif; font-size: clamp(28px, 3.2vw, 42px); font-weight: 700; margin: 12px 0 16px; line-height: 1.1; letter-spacing: .3px; }
+.detailcontent h1 { font-family: "Lora", serif; font-size: clamp(28px, 3.2vw, 42px); font-weight: 700; margin: 12px 0 16px; line-height: 1.1; letter-spacing: .3px; }
 .detailcontent > p { color: var(--muted); line-height: 1.8; font-size: 16px; margin-bottom: 22px; }
 .detail-highlights { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 24px; }
 .detail-price-row { display: flex; align-items: baseline; gap: 12px; margin-bottom: 20px; }
@@ -681,7 +681,7 @@ button { cursor: pointer; font-family: inherit; }
   border: 1px solid var(--border);
   margin-top: 32px;
 }
-.bookingbox h3 { font-family: "Cormorant Garamond", serif; font-size: 22px; font-weight: 700; margin-bottom: 20px; letter-spacing: .3px; }
+.bookingbox h3 { font-family: "Lora", serif; font-size: 22px; font-weight: 700; margin-bottom: 20px; letter-spacing: .3px; }
 .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin: 14px 0; }
 .form-field { display: flex; flex-direction: column; gap: 6px; }
 .form-field label { font-size: 12px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .5px; }
@@ -700,7 +700,7 @@ button { cursor: pointer; font-family: inherit; }
 .bookingbox input:focus, .form input:focus { border-color: var(--green); box-shadow: 0 0 0 3px rgba(26,92,66,.1); background: var(--white); }
 .booking-total { display: flex; justify-content: space-between; align-items: center; padding: 16px 0; border-top: 1px solid var(--border); margin-top: 18px; }
 .booking-total-label { font-size: 14px; color: var(--muted); }
-.booking-total-price { font-family: "Cormorant Garamond", serif; font-size: 26px; font-weight: 700; color: var(--green); }
+.booking-total-price { font-family: "Lora", serif; font-size: 26px; font-weight: 700; color: var(--green); }
 .bookingbox .btn { width: 100%; margin-top: 14px; justify-content: center; }
 .book-msg { margin-top: 14px; padding: 12px 16px; border-radius: var(--radius-sm); font-weight: 600; font-size: 14px; }
 .book-msg.success { background: var(--green-pale); color: var(--green); }
@@ -708,7 +708,7 @@ button { cursor: pointer; font-family: inherit; }
 
 /* Reviews */
 .review-form { margin-bottom: 28px; background: var(--bg); padding: 22px; border-radius: var(--radius); border: 1px solid var(--border); }
-.review-form h4 { font-family: "Cormorant Garamond", serif; font-size: 20px; font-weight: 700; margin-bottom: 16px; letter-spacing: .3px; }
+.review-form h4 { font-family: "Lora", serif; font-size: 20px; font-weight: 700; margin-bottom: 16px; letter-spacing: .3px; }
 .star-picker { display: flex; gap: 8px; margin-bottom: 16px; }
 .star-picker span { font-size: 28px; cursor: pointer; transition: transform .15s; color: #ccc; }
 .star-picker span.active, .star-picker span:hover { color: var(--gold); transform: scale(1.2); }
@@ -754,7 +754,7 @@ button { cursor: pointer; font-family: inherit; }
   box-shadow: 0 20px 60px rgba(13,31,22,.1);
   border: 1px solid var(--border);
 }
-.form h1 { font-family: "Cormorant Garamond", serif; font-size: 34px; font-weight: 700; margin-bottom: 8px; letter-spacing: .5px; }
+.form h1 { font-family: "Lora", serif; font-size: 34px; font-weight: 700; margin-bottom: 8px; letter-spacing: .5px; }
 .form .subtitle { color: var(--muted); margin-bottom: 28px; font-size: 15px; }
 .form .btn { width: 100%; margin-top: 12px; justify-content: center; }
 .error { background: #fde9e7; color: #8d2e28; padding: 12px 16px; border-radius: var(--radius-sm); font-size: 14px; font-weight: 500; margin-bottom: 16px; }
@@ -775,7 +775,7 @@ button { cursor: pointer; font-family: inherit; }
   transition: box-shadow var(--transition);
 }
 .booking:hover { box-shadow: var(--card-hover); }
-.booking h3 { font-family: "Cormorant Garamond", serif; font-size: 20px; font-weight: 700; margin-bottom: 6px; letter-spacing: .3px; }
+.booking h3 { font-family: "Lora", serif; font-size: 20px; font-weight: 700; margin-bottom: 6px; letter-spacing: .3px; }
 .booking p { color: var(--muted); font-size: 14px; margin-top: 4px; }
 .status { display: inline-block; padding: 6px 13px; border-radius: 20px; font-size: 12px; font-weight: 700; letter-spacing: .5px; text-transform: capitalize; }
 .status.confirmed { background: #d9f0e3; color: #1e6039; }
@@ -784,12 +784,12 @@ button { cursor: pointer; font-family: inherit; }
 
 /* ─── Admin ─── */
 .admin-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 36px; }
-.admin-section h2 { font-family: "Cormorant Garamond", serif; font-size: 24px; font-weight: 700; margin-bottom: 20px; letter-spacing: .3px; }
+.admin-section h2 { font-family: "Lora", serif; font-size: 24px; font-weight: 700; margin-bottom: 20px; letter-spacing: .3px; }
 
 /* ─── Empty State ─── */
 .empty-state { text-align: center; padding: 70px 20px; }
 .empty-state .empty-icon { font-size: 60px; margin-bottom: 20px; }
-.empty-state h3 { font-family: "Cormorant Garamond", serif; font-size: 24px; font-weight: 700; margin-bottom: 10px; }
+.empty-state h3 { font-family: "Lora", serif; font-size: 24px; font-weight: 700; margin-bottom: 10px; }
 .empty-state p { color: var(--muted); margin-bottom: 24px; }
 
 /* ─── Footer ─── */
@@ -799,7 +799,7 @@ footer {
   padding: 60px 6% 36px;
 }
 .footer-top { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 40px; margin-bottom: 48px; }
-.footer-brand .brand { color: #fff; font-family: "Cormorant Garamond", serif; }
+.footer-brand .brand { color: #fff; font-family: "Lora", serif; }
 .footer-brand p { color: rgba(255,255,255,.5); font-size: 14px; line-height: 1.8; margin-top: 14px; max-width: 260px; }
 .footer-col h4 { color: #fff; font-weight: 700; font-size: 14px; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 18px; }
 .footer-col a { display: block; color: rgba(255,255,255,.5); font-size: 14.5px; margin-bottom: 10px; transition: color var(--transition); }
@@ -847,7 +847,7 @@ footer {
   margin-bottom: 8px;
 }
 .auth-header h1 {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Lora", serif;
   font-size: 34px;
   font-weight: 700;
   color: var(--text);
@@ -1084,7 +1084,7 @@ footer {
   border-bottom: 1.5px solid var(--border);
 }
 .admin-top-bar h1 {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Lora", serif;
   font-size: clamp(30px, 3.5vw, 44px);
   font-weight: 700;
   margin: 6px 0 0;
@@ -1165,7 +1165,7 @@ footer {
   color: var(--muted);
 }
 .admin-stat-value {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Lora", serif;
   font-size: 36px;
   font-weight: 700;
   color: var(--text);
@@ -1226,7 +1226,7 @@ footer {
   animation: slideUp .25s ease;
 }
 .admin-modal h2 {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Lora", serif;
   font-size: 28px;
   font-weight: 700;
   margin: 0 0 20px;
@@ -1638,7 +1638,7 @@ footer {
   animation: otpPulse 1.5s ease;
 }
 .payment-success-screen h2 {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Lora", serif;
   font-size: 26px;
   font-weight: 700;
   color: var(--text);
@@ -1700,7 +1700,7 @@ footer {
   align-items: center;
   gap: 8px;
   text-decoration: none;
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Lora", serif;
   font-size: 28px;
   font-weight: 700;
   color: var(--green);
@@ -2081,7 +2081,7 @@ footer {
   font-size: 13px;
 }
 .hero-luxury-title {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Lora", serif;
   font-size: clamp(38px, 5.5vw, 64px);
   font-weight: 700;
   line-height: 1.05;
@@ -2367,7 +2367,7 @@ footer {
   font-size: 11.5px;
 }
 .card-title {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Lora", serif;
   font-size: 21px;
   font-weight: 700;
   line-height: 1.25;
@@ -2464,7 +2464,7 @@ footer {
   max-width: 760px;
 }
 .page-hero-content h1 {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Lora", serif;
   font-size: clamp(34px, 4.5vw, 54px);
   font-weight: 700;
   line-height: 1.08;
@@ -2659,7 +2659,7 @@ footer {
   color: #fff;
 }
 .modern-dest-card .dest-info h3 {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Lora", serif;
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 6px;
@@ -2842,7 +2842,7 @@ footer {
   border-bottom: 1px solid var(--border);
 }
 .bookingbox-header h3 {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Lora", serif;
   font-size: 24px;
   font-weight: 700;
   color: var(--text);
@@ -2978,7 +2978,7 @@ footer {
   border-bottom: 1.5px solid var(--border);
 }
 .bookings-page-title {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Lora", serif;
   font-size: clamp(30px, 3.8vw, 42px);
   font-weight: 700;
   margin: 8px 0 6px;
@@ -3091,7 +3091,7 @@ footer {
   margin-left: auto;
 }
 .booking-title {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Lora", serif;
   font-size: 21px;
   font-weight: 700;
   margin-bottom: 10px;
@@ -3208,7 +3208,7 @@ footer {
   box-shadow: var(--card-hover);
 }
 .testi-quote-mark {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Lora", serif;
   font-size: 54px;
   line-height: 1;
   color: var(--green-pale);
