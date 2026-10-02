@@ -150,7 +150,7 @@ button { cursor: pointer; font-family: inherit; }
 .hero-inner { max-width: 700px; }
 .hero h1 {
   font-family: "Lora", serif;
-  font-size: clamp(36px, 4.8vw, 60px);
+  font-size: clamp(26px, 3.6vw, 46px);
   line-height: 1.05;
   margin: 14px 0 20px;
   font-weight: 700;
@@ -239,7 +239,7 @@ button { cursor: pointer; font-family: inherit; }
 .sectionhead h1,
 .sectionhead h2 {
   font-family: "Lora", serif;
-  font-size: clamp(26px, 3.2vw, 38px);
+  font-size: clamp(20px, 2.4vw, 30px);
   font-weight: 700;
   line-height: 1.1;
   margin: 10px 0 0;
@@ -613,7 +613,7 @@ button { cursor: pointer; font-family: inherit; }
 .lightbox-next { right: 24px; }
 
 /* Detail Content */
-.detailcontent h1 { font-family: "Lora", serif; font-size: clamp(28px, 3.2vw, 42px); font-weight: 700; margin: 12px 0 16px; line-height: 1.1; letter-spacing: .3px; }
+.detailcontent h1 { font-family: "Lora", serif; font-size: clamp(22px, 2.6vw, 34px); font-weight: 700; margin: 12px 0 16px; line-height: 1.1; letter-spacing: .3px; }
 .detailcontent > p { color: var(--muted); line-height: 1.8; font-size: 16px; margin-bottom: 22px; }
 .detail-highlights { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 24px; }
 .detail-price-row { display: flex; align-items: baseline; gap: 12px; margin-bottom: 20px; }
@@ -1085,7 +1085,7 @@ footer {
 }
 .admin-top-bar h1 {
   font-family: "Lora", serif;
-  font-size: clamp(30px, 3.5vw, 44px);
+  font-size: clamp(22px, 2.6vw, 34px);
   font-weight: 700;
   margin: 6px 0 0;
   letter-spacing: .3px;
@@ -1275,7 +1275,7 @@ footer {
 /* ── 1200px: Large tablets / small laptops ── */
 @media (max-width: 1200px) {
   .hero-luxury-container { gap: 40px; }
-  .hero-luxury-title { font-size: clamp(34px, 4.5vw, 54px); }
+  .hero-luxury-title { font-size: clamp(26px, 3.8vw, 42px); }
   .grid-4 { grid-template-columns: repeat(2, 1fr); }
   .why-grid { grid-template-columns: repeat(2, 1fr); }
   .admin-stats-grid { grid-template-columns: repeat(2, 1fr); }
@@ -1309,7 +1309,7 @@ footer {
   .hero h1 { font-size: 34px; }
   .hero p { font-size: 15px; }
   .hero-luxury { min-height: 100svh; }
-  .hero-luxury-title { font-size: clamp(28px, 7vw, 42px); }
+  .hero-luxury-title { font-size: clamp(22px, 5.5vw, 34px); }
   .hero-luxury-sub { font-size: 15px; }
   .hero-perks-row { gap: 10px; flex-wrap: wrap; justify-content: center; }
   .hero-perk-dot { display: none; }
@@ -1359,7 +1359,7 @@ footer {
 
   /* Page hero banners */
   .page-hero-banner { min-height: 220px; }
-  .page-hero-content h1 { font-size: 32px; }
+  .page-hero-content h1 { font-size: 26px; }
   .page-hero-stats { gap: 20px; }
 
   /* Auth forms */
@@ -1404,14 +1404,14 @@ footer {
   .stats-bar { grid-template-columns: 1fr; }
   .stat-num { font-size: 38px; }
   .stat-item { border-bottom: 1px solid rgba(255,255,255,.15); border-right: none; }
-  .hero-luxury-title { font-size: clamp(26px, 9vw, 36px); }
+  .hero-luxury-title { font-size: clamp(20px, 7vw, 28px); }
   .hero-search-card { padding: 16px; }
   .hero-quick-tags { justify-content: flex-start; }
   .footer-top { grid-template-columns: 1fr; }
   .form { padding: 24px 16px; }
   .bookingbox { padding: 20px 16px; }
   .gallery-main { height: 220px; }
-  .page-hero-content h1 { font-size: 26px; }
+  .page-hero-content h1 { font-size: 20px; }
   .modern-testi-card { padding: 20px 18px; }
   .why-card { padding: 24px 18px; }
   .booking-card-actions { flex-direction: column; gap: 8px; }
@@ -2196,7 +2196,7 @@ footer {
 }
 .hero-luxury-title {
   font-family: "Lora", serif;
-  font-size: clamp(38px, 5.5vw, 64px);
+  font-size: clamp(28px, 4vw, 48px);
   font-weight: 700;
   line-height: 1.05;
   letter-spacing: 0.3px;
@@ -2579,7 +2579,7 @@ footer {
 }
 .page-hero-content h1 {
   font-family: "Lora", serif;
-  font-size: clamp(34px, 4.5vw, 54px);
+  font-size: clamp(24px, 3.2vw, 40px);
   font-weight: 700;
   line-height: 1.08;
   letter-spacing: 0.3px;
@@ -3093,7 +3093,7 @@ footer {
 }
 .bookings-page-title {
   font-family: "Lora", serif;
-  font-size: clamp(30px, 3.8vw, 42px);
+  font-size: clamp(22px, 2.8vw, 32px);
   font-weight: 700;
   margin: 8px 0 6px;
   letter-spacing: 0.3px;
